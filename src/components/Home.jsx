@@ -16,7 +16,7 @@ import ApiService from '../services/Services';
     const [PortfolioMultiImg, setPortfolioMultiImg] = useState([]);
 
     const [CatClickSts, setCatClick] = useState('');
-    
+    console.log('hello dev');
     async  function getPortfolio (catid){
         setCatClick(catid);
         setLoader(true);
